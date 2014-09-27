@@ -1,0 +1,15 @@
+{
+  "name": "techtraining",
+  "version": "0.0.0",
+  "description": "Ren Tech Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renish B",
+  "license": "BSD",
+  "dependencies": {
+    "express": "^4.9.5",
+    "jade": "^1.7.0"
+  }
+}
