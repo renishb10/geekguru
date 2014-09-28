@@ -22,11 +22,8 @@ app.use(stylus.middleware({
 app.use(express.static(__dirname + '/public'))
 
 //MongoDB Connect and Model
-if(env === 'development'){
-    mongoose.connect('mongodb://localhost/geekguru');
-}else{
-    mongoose.connect('mongodb://renishb10:shivashiva@ds039960.mongolab.com:39960/geekguru');
-}
+//mongoose.connect('mongodb://localhost/geekguru');
+mongoose.connect('mongodb://renishb10:shivashiva@ds039960.mongolab.com:39960/geekguru');
 var db = mongoose.connection;
 db.on('error',console.error.bind(console,'connection error...'));
 db.once('open',function callback(){
@@ -51,7 +48,7 @@ app.get('*', function (req, res) {
 });
 
 //Port Listening
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3030 ;
 app.listen(port);
 console.log("You are at " + env);
 console.log("Our Technical Training Server is running at " + port);
