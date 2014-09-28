@@ -1,108 +1,23 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
-1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   'express',
-1 verbose cli   'jade' ]
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.32
-4 verbose node symlink C:\Program Files\nodejs\\node.exe
-5 warn package.json techtraining@0.0.0 No repository field.
-6 warn package.json techtraining@0.0.0 No README data
-7 verbose readDependencies using package.json deps
-8 verbose cache add [ 'express', null ]
-9 verbose cache add name=undefined spec="express" args=["express",null]
-10 verbose parsed url { protocol: null,
-10 verbose parsed url   slashes: null,
-10 verbose parsed url   auth: null,
-10 verbose parsed url   host: null,
-10 verbose parsed url   port: null,
-10 verbose parsed url   hostname: null,
-10 verbose parsed url   hash: null,
-10 verbose parsed url   search: null,
-10 verbose parsed url   query: null,
-10 verbose parsed url   pathname: 'express',
-10 verbose parsed url   path: 'express',
-10 verbose parsed url   href: 'express' }
-11 verbose cache add [ 'jade', null ]
-12 verbose cache add name=undefined spec="jade" args=["jade",null]
-13 verbose parsed url { protocol: null,
-13 verbose parsed url   slashes: null,
-13 verbose parsed url   auth: null,
-13 verbose parsed url   host: null,
-13 verbose parsed url   port: null,
-13 verbose parsed url   hostname: null,
-13 verbose parsed url   hash: null,
-13 verbose parsed url   search: null,
-13 verbose parsed url   query: null,
-13 verbose parsed url   pathname: 'jade',
-13 verbose parsed url   path: 'jade',
-13 verbose parsed url   href: 'jade' }
-14 silly lockFile f3c62de4-express express
-15 verbose lock express C:\Users\reninfotech\AppData\Roaming\npm-cache\f3c62de4-express.lock
-16 silly lockFile 5bd60fae-jade jade
-17 verbose lock jade C:\Users\reninfotech\AppData\Roaming\npm-cache\5bd60fae-jade.lock
-18 silly lockFile 5bd60fae-jade jade
-19 silly lockFile 5bd60fae-jade jade
-20 silly lockFile f3c62de4-express express
-21 silly lockFile f3c62de4-express express
-22 verbose addNamed [ 'jade', '' ]
-23 verbose addNamed [ null, '*' ]
-24 silly lockFile 51d481b2-jade jade@
-25 verbose lock jade@ C:\Users\reninfotech\AppData\Roaming\npm-cache\51d481b2-jade.lock
-26 verbose addNamed [ 'express', '' ]
-27 verbose addNamed [ null, '*' ]
-28 silly lockFile 64a534c1-express express@
-29 verbose lock express@ C:\Users\reninfotech\AppData\Roaming\npm-cache\64a534c1-express.lock
-30 silly addNameRange { name: 'jade', range: '*', hasData: false }
-31 silly addNameRange { name: 'express', range: '*', hasData: false }
-32 verbose request where is /jade
-33 verbose request registry https://registry.npmjs.org/
-34 verbose request id 5121d17411145274
-35 verbose url raw /jade
-36 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
-37 verbose url resolved https://registry.npmjs.org/jade
-38 verbose request where is https://registry.npmjs.org/jade
-39 info trying registry request attempt 1 at 20:38:35
-40 http GET https://registry.npmjs.org/jade
-41 verbose request where is /express
-42 verbose request registry https://registry.npmjs.org/
-43 verbose url raw /express
-44 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
-45 verbose url resolved https://registry.npmjs.org/express
-46 verbose request where is https://registry.npmjs.org/express
-47 info trying registry request attempt 1 at 20:38:35
-48 http GET https://registry.npmjs.org/express
-49 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-50 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-51 info trying registry request attempt 2 at 20:38:45
-52 http GET https://registry.npmjs.org/jade
-53 info trying registry request attempt 2 at 20:38:45
-54 http GET https://registry.npmjs.org/express
-55 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-56 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
-57 info trying registry request attempt 3 at 20:39:45
-58 http GET https://registry.npmjs.org/jade
-59 info trying registry request attempt 3 at 20:39:45
-60 http GET https://registry.npmjs.org/express
-61 silly lockFile 51d481b2-jade jade@
-62 silly lockFile 51d481b2-jade jade@
-63 silly lockFile 64a534c1-express express@
-64 silly lockFile 64a534c1-express express@
-65 error network getaddrinfo ENOTFOUND
-65 error network This is most likely not a problem with npm itself
-65 error network and is related to network connectivity.
-65 error network In most cases you are behind a proxy or have bad network settings.
-65 error network
-65 error network If you are behind a proxy, please make sure that the
-65 error network 'proxy' config is set properly.  See: 'npm help config'
-66 error System Windows_NT 6.2.9200
-67 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "express" "jade"
-68 error cwd D:\tryJavaScripts\techtraining
-69 error node -v v0.10.32
-70 error npm -v 1.4.28
-71 error syscall getaddrinfo
-72 error code ENOTFOUND
-73 error errno ENOTFOUND
-74 verbose exit [ 1, true ]
+4 info outdated updating undefined
+5 error Failed to parse json
+5 error Unexpected token *
+6 error File: d:\tryJavaScripts\techtraining\package.json
+7 error Failed to parse package.json data.
+7 error package.json must be actual JSON, not just JavaScript.
+7 error
+7 error This is not a bug in npm.
+7 error Tell the package author to fix their package.json file. JSON.parse
+8 error System Windows_NT 6.2.9200
+9 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+10 error cwd d:\tryJavaScripts\techtraining
+11 error node -v v0.10.32
+12 error npm -v 1.4.28
+13 error file d:\tryJavaScripts\techtraining\package.json
+14 error code EJSONPARSE
+15 verbose exit [ 1, true ]
